@@ -1,0 +1,100 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.wrap .item-text {
+  text-align: center;
+  padding-top: 15vh;
+}
+.wrap .item-text h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+.wrap .item-text p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.wrap .btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrap .btn-group .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap .btn-group button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 256px;
+  border-radius: 100px;
+  opacity: 0.85;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0 14px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  letter-spacing: 0.9px;
+}
+.wrap .btn-group .right-btn {
+  background: white;
+  opacity: 0.65;
+  color: black;
+  font-size: 14px;
+}
+.wrap .btn-group .left-btn {
+  background-color: black;
+  opacity: 0.75;
+  font-size: 14px;
+  color: white;
+}
+.wrap .btn-group img {
+  height: 40px;
+  animation: animateDown 1.5s infinite;
+}
+@media (max-width: 767px) {
+  .wrap .btn-group .btn {
+    flex-direction: column;
+  }
+  .wrap .btn-group button {
+    margin: 7px 0;
+  }
+}
+/* bgImage for section, controlled by jsx props */
+.model-s {
+  background-image: url("./../images/model-s.jpg");
+}
+.model-x {
+  background-image: url("./../images/model-x.jpg");
+}
+.model-y {
+  background-image: url("./../images/model-y.jpg");
+}
+.model-3 {
+  background-image: url("./../images/model-3.jpg");
+}
+.solar-panel {
+  background-image: url("./../images/solar-panel.jpg");
+}
+.solar-roof {
+  background-image: url("./../images/solar-roof.jpg");
+}
+.accessories {
+  background-image: url("./../images/accessories.jpg");
+}
