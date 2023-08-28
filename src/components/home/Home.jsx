@@ -12,6 +12,17 @@ const Home = () => {
           leftBtnText="Custom order"
           rightBtnText="Existing invertory"
           downArrowIcon="down-arrow"
+          id="model-s"
+        />
+
+        <Section
+          title="Model X"
+          description="Order Online for Touchless Delivery"
+          bgImage="model-x"
+          leftBtnText="Custom order"
+          rightBtnText="Existing invertory"
+          downArrowIcon="down-arrow"
+          id="model-x"
         />
         <Section
           title="Model Y"
@@ -20,14 +31,7 @@ const Home = () => {
           leftBtnText="Custom order"
           rightBtnText="Existing invertory"
           downArrowIcon="down-arrow"
-        />
-        <Section
-          title="Model X"
-          description="Order Online for Touchless Delivery"
-          bgImage="model-x"
-          leftBtnText="Custom order"
-          rightBtnText="Existing invertory"
-          downArrowIcon="down-arrow"
+          id="model-y"
         />
         <Section
           title="Model 3"
@@ -36,6 +40,7 @@ const Home = () => {
           leftBtnText="Custom order"
           rightBtnText="Existing invertory"
           downArrowIcon="down-arrow"
+          id="model-3"
         />
         <Section
           title="Solar Panel"

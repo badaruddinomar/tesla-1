@@ -21,16 +21,16 @@ const Header = () => {
         </a>
         <menu>
           <p>
-            <a href="/">Model-S</a>
+            <a href="#model-s">Model-S</a>
           </p>
           <p>
-            <a href="/">Model-X</a>
+            <a href="#model-x">Model-X</a>
           </p>
           <p>
-            <a href="/">Model-Y</a>
+            <a href="#model-y">Model-Y</a>
           </p>
           <p>
-            <a href="/">Model-3</a>
+            <a href="#model-3">Model-3</a>
           </p>
         </menu>
         <div className="right-menu">
@@ -54,16 +54,16 @@ const Header = () => {
               <div className="links">
                 <ul>
                   <li>
-                    <a href="/">Model-S</a>
+                    <a href="#model-s">Model-S</a>
                   </li>
                   <li>
-                    <a href="/">Model-X</a>
+                    <a href="#model-x">Model-X</a>
                   </li>
                   <li>
-                    <a href="/">Model-Y</a>
+                    <a href="#model-y">Model-Y</a>
                   </li>
                   <li>
-                    <a href="/">Model-3</a>
+                    <a href="#model-3">Model-3</a>
                   </li>
                   <li>
                     <a href="/">Existing Invertory</a>

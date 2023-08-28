@@ -5,7 +5,7 @@ import downArrow from "./../images/down-arrow.svg";
 const Section = (props) => {
   return (
     <>
-      <div className={`wrap ${props.bgImage}`}>
+      <div className={`wrap ${props.bgImage}`} id={props.id}>
         <Fade bottom>
           <div className="item-text">
             <h1>{props.title}</h1>
